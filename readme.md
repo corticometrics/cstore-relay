@@ -16,6 +16,8 @@ The default incomming port inside the container is `12345`, map the port accordi
 
 The default outgoing port inside the container is `54321`, map the port accordingly when launching the container.
 
+DICOMS that are saved, and log files are written to `/tmp` so map that directory accordingly when launching the container if you want to save them.
+
 ```
 mkdir -p ${PWD}/tmp
 docker run -it --rm \
