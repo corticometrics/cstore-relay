@@ -31,7 +31,11 @@ docker run -it --rm \
 
 storescu -aec ORIBI_AREG 127.0.0.1 12345 file.dcm
 
+## Acknowledgments
 
+This work has been partially funded by the following NIH grants:
+- R42CA183150
+- R42AG062026
 
 
 
